@@ -7,7 +7,7 @@
 # curl --remote-name --location https://raw.githubusercontent.com/mlavi/stageworkshop/master/bootstrap.sh && SOURCE=${_} sh ${_##*/}
 
 if [[ -z ${SOURCE} ]]; then
-  ORGANIZATION=pipoe2h
+  ORGANIZATION=nutanixworkshops
     REPOSITORY=stageworkshop
         BRANCH=master
 else
